@@ -1,0 +1,18 @@
+pytz==2020.1  # https://github.com/stub42/pytz
+python-slugify==4.0.0  # https://github.com/un33k/python-slugify
+Pillow==7.1.2  # https://github.com/python-pillow/Pillow
+argon2-cffi==19.2.0  # https://github.com/hynek/argon2_cffi
+boto3==1.14.4  # https://github.com/boto/boto3
+whitenoise==5.1.0  # https://github.com/evansd/whitenoise
+python-slugify==4.0.0  # https://github.com/un33k/python-slugify
+
+
+# Django
+# ------------------------------------------------------------------------------
+django==3.0.5  # pyup: < 3.1  # https://www.djangoproject.com/
+django-environ==0.4.5  # https://github.com/joke2k/django-environ
+django-model-utils==4.0.0  # https://github.com/jazzband/django-model-utils
+django-storages==1.9.1  # https://github.com/jschneier/django-storages
+# Django REST Framework
+djangorestframework==3.11.0  # https://github.com/encode/django-rest-framework
+djangorestframework-jwt==1.11.0
