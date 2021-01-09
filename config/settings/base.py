@@ -62,6 +62,10 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     # Your stuff: custom apps go here
     # "pichicm_backend.<app_name>",
+    "pichicm_backend.apis",
+    "pichicm_backend.authentication",
+    "pichicm_backend.core",
+    "pichicm_backend.profiles",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -72,6 +76,7 @@ INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 AUTHENTICATION_BACKENDS = [
     "django.contrib.auth.backends.ModelBackend",
 ]
+AUTH_USER_MODEL = "authentication.User"
 
 # PASSWORDS
 # ------------------------------------------------------------------------------
